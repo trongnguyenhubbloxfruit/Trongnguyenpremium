@@ -57,7 +57,7 @@ if script_id then
         }
     )
     if not premium then
-        local auth = _function.load("https://raw.githubusercontent.com/ArdyBotzz/TrongNguyen Hub/refs/heads/master/keysystem.lua")
+        local auth = _function.load("https://raw.githubusercontent.com/ArdyBotzz/TrongNguyenHub/refs/heads/master/keysystem.lua")
         local auth_status = auth(script_id)
         repeat task.wait() until auth_status.validated
     end
